@@ -1,0 +1,444 @@
+/* styles.css */
+.body-customer {
+  width: 1250px;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+div.inline{
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: fit-content;
+  margin: 6px;
+  margin-left: 20px;  
+  border-radius: 5%;
+  background-color: white;
+}
+div.inline:hover{
+  background-color:rgb(237, 240, 239);
+}
+
+figure.caption-right {
+  padding: 60px 60px 60px 60px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 4px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+figure.caption-right td {
+  /* background: yellow; */
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  border: 2px  solid rgba(14, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(5px);
+}
+
+figure.caption-right input {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+}
+figure.caption-right img {
+  background: white;
+  padding: 15px 15px 15px 15px;
+  margin-right: 50px;
+  border: 2px solid rgba(14, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(20px);
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100hv;
+  background:#C7C5F4;
+}
+
+
+/*Home Customer*/
+.home-newproduct {
+  width: 1250px;
+  height: 500px;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  border: 2px 2px solid rgba(14, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(20px);
+}
+.home-newproduct h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home-newproduct figcaption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  border-radius: 25px;
+}
+
+.home-hotproduct {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  border: 2px 2px solid rgba(14, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(20px);
+}
+.home-hotproduct h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home-hotproduct figcaption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  border-radius: 25px;
+}
+
+figcaption.text-center{
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}
+
+/*Productdetail*/
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+  /* background: red; */
+
+}
+
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+
+
+.text-center {
+  text-align: center;
+  background: transparent;
+  border-radius: 25px;
+}
+
+span.link{
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+/* menu.css */
+div.border-bottom {
+  margin: 10px;
+  border-bottom: 1px solid black;
+  padding: 20px 0px 20px 0px;
+  background: linear-gradient(90deg, #fff, #776BCC);
+  border: 1px solid rgba(13, 1, 1, 0.2);
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+}
+
+div.float-left{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: transparent;
+
+}
+
+div.float-right{
+  float: right;
+  text-align: center;
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  background: transparent;
+}
+
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  margin: 0px 10px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  background: transparent;
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+form.search{
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  width: 500px;
+}
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  width: 450px;
+}
+input[type="search"]::placeholder {
+  color: black;
+}
+input[type="submit"]{
+  border-radius: 20px;
+  font-weight: 200;
+  font-weight: bold;
+}
+input[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+
+}
+
+input.keyword {
+  width: 110 px;
+}
+
+/* datatable.css */
+tr #total{
+  height: 30px;
+}
+.datatable{
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 60em;
+}
+
+/* header */
+tr:first-child.datatable {
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  color: white;
+  font-size: medium;
+}
+
+/* even rows , except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: white;
+}
+
+/* odd rows , except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #f2ecec;
+}
+
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+
+/*Login*/
+div.login {
+  border-radius: 40px;
+  background-color:#a5a1ff;
+  padding: 40px 0px 70px 0px;
+}
+.align-login {
+  top: 50%;
+  left: 50%;
+  transform: translate(90%, 10%);
+  padding: 30px 30px 30px 30px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 25px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.align-login td {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  /* background: green; */
+}
+
+.align-login input {
+  width: 60%;
+  height: 60%;
+  background: white;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  /* border: 2px solid rgba(255, 255, 255, .2); */
+  border-radius: 40px;
+  padding: 20px 28px 20px 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+/*SignUp*/
+div.signup {
+  border-radius: 40px;
+  background-color:#a5a1ff;
+  padding: 40px 0px 70px 0px;
+}
+.align-signup {
+  top: 50%;
+  left: 50%;
+  transform: translate(90%, 2%);
+  padding: 30px 30px 30px 30px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 25px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.align-signup td {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  /* background: green; */
+}
+
+.align-signup input {
+  width: 80%;
+  height: 60%;
+  background: white;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  /* border: 2px solid rgba(255, 255, 255, .2); */
+  border-radius: 40px;
+  padding: 20px 25px 20px 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/*Active*/
+div.active {
+  border-radius: 40px;
+  background-color:#a5a1ff;
+  padding: 40px 0px 70px 0px;
+}
+.align-active {
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, 5%);
+  padding: 30px 30px 30px 30px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 25px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.align-active td {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  /* background: green; */
+}
+
+.align-active input {
+  width: 60%;
+  height: 60%;
+  background: white;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  /* border: 2px solid rgba(255, 255, 255, .2); */
+  border-radius: 40px;
+  padding: 20px 28px 20px 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/*MyProfile*/
+div.myprofile {
+  border-radius: 40px;
+  background-color:#a5a1ff;
+  padding: 40px 0px 70px 0px;
+}
+.align-myprofile {
+  top: 50%;
+  left: 50%;
+  transform: translate(90%, 2%);
+  padding: 30px 30px 30px 30px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 25px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.align-myprofile td {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  /* background: green; */
+}
+
+.align-myprofile input {
+  width: 80%;
+  height: 60%;
+  background: white;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  /* border: 2px solid rgba(255, 255, 255, .2); */
+  border-radius: 40px;
+  padding: 20px 25px 20px 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
