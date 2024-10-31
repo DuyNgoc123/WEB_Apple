@@ -1,0 +1,272 @@
+/* styles.css */
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+div.inline {
+  display: inline-block;
+}
+
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100hv;
+  background:#C7C5F4;
+}
+
+/*Login*/
+.align-center {
+  width: fit-content;
+  margin: 10px auto;
+  /* width: 100%;
+  height: 50px; */
+}
+
+.align-center input {
+  width: 80%;
+  height: 100%;
+  background: white;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  /* border: 2px solid rgba(255, 255, 255, .2); */
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  font-weight: bold;
+  font-size: medium;
+
+}
+
+.align-center input::placeholder {
+  color: black;
+}
+
+.align-center td {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.align-valign-center {
+  width: 500px;
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  color: black;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 25px;
+  padding: 30px 40px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.text-center {
+  text-align: center;
+  font-size: 36px;
+  color: black;
+  /* background: red; */
+}
+
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* menu.css */
+div.border-bottom {
+  width: 1350px;
+  background: linear-gradient(90deg, #fff, #776BCC);
+  border: 1px solid rgba(13, 1, 1, 0.2);
+  border-radius: 15px;
+  padding: 30px 0px 30px 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+}
+
+
+/*Khung Categories,Product List*/
+div.float-left {
+  padding: 0px 0px 10px 50px;
+  background: transparent;
+  font-weight: bold;
+  font-size: large;
+  float: left;
+}
+
+/*Khung Categories,Product detail*/
+div.float-right {
+  /* width: 100px; */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 50px 10px 0px;
+  float: right;
+  background: transparent;
+}
+
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  margin: 0px 10px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  background: transparent;
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+form.search {
+  margin: 0px;
+}
+
+input.keyword {
+  width: 110 px;
+}
+
+/*Khung Detail*/
+.CategoriesDetail {
+  width: 480px;
+  height: 300px;
+  border: 2px solid rgba(16, 0, 0, 0.2);
+  background: #bab0ff;
+  float: right;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, 30%);
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+  /* padding: 50px 100px 100px 100px; */
+
+}
+
+.text-categories-detail {
+  text-align: center;
+  font-size: 36px;
+}
+
+.CategoriesDetail td {
+  font-size: 20px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, 20%);
+  /* background: blue; */
+  padding: 30px, 20px;
+}
+
+.CategoriesDetail input {
+  font-weight: bold;
+  height: 200%;
+  background: #fff;
+  margin: 2px;
+  padding: 10px 50px 10px 10px;
+}
+
+/* CaetegoryList */
+.CategoryList {
+  padding: 50px 300px 100px 100px;
+  background: transparent;
+  float: left;
+}
+
+.CategoryList h2 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Product Detail*/
+.ProductDetail {
+  width: 480px;
+  height: 720px;
+  border: 2px solid rgba(16, 0, 0, 0.2);
+  background: #bab0ff;
+  float: right;
+  top: 50%;
+  left: 50%;
+  transform: translate(-15%, 10%);
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+  /* padding: 50px 100px 100px 100px; */
+}
+
+.ProductDetail td {
+  font-size: 15px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, 20%);
+  /* background: blue; */
+  padding: 30px, 20px;
+}
+
+.text-productdetail {
+  text-align: center;
+  font-size: 30px;
+}
+
+.ProductDetail input {
+  font-weight: bold;
+  height: 200%;
+  background: #fff;
+  margin: 1px;
+  padding: 10px 50px 10px 10px;
+}
+
+
+/* datatable.css */
+.datatable {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 40em;
+}
+
+/*header*/
+tr:first-child.datatable{
+  background-color: #bab0ff;
+  color: bac;
+  font-size: medium;
+  
+}
+
+/*even rows. except header*/
+tr:not(:first-child):nth-child(even).datatable{
+  background-color: white;
+}
+
+/* odd rows , except header */
+tr:not(:first-child):nth-child(odd).datatable{
+  background-color: #f2ecec;
+}
+
+/* except header */
+tr:not(:first-child):hover.datatable{
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
